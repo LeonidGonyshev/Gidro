@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/179429c3795fb9aed42c526bd1133cc0?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalais.css">
+    <link rel="stylesheet" href="css/gidro.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-top">
+                <nav class="top-nav">
+                    <a href="#" class="top-item">Магазины</a>
+                    <a href="#" class="top-item">Акции</a>
+                    <a href="#" class="top-item">Доставка и оплата</a>
+                </nav>
+                <a href="#" class="logo-link"><img src="img/header-logo.svg" alt="logo" class="top-logo"></a>
+                <address class="top-address">Москва,  ул. Науки  25</address>
+                <div class="top-icon">
+                    <a href="#" class="icon-link link-1"><img src="img/header-like.svg" alt="like"></a>
+                    <a href="#" class="icon-link link-2"><img src="img/header-person.svg" alt="like"></a>
+                    <a href="#" class="icon-link link-3"><img src="img/header-busket.svg" alt="like"> <span class="goods">0</span></a>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <nav class="bottom-nav">
+                    <a href="#" class="bottom-link">Квадроциклы</a>
+                    <a href="#" class="bottom-link">Катера</a>
+                    <a href="#" class="bottom-link">Гидроциклы</a>
+                    <a href="#" class="bottom-link">Лодки</a>
+                    <a href="#" class="bottom-link">Вездеходы</a>
+                    <a href="#" class="bottom-link">Снегоходы</a>
+                    <a href="#" class="bottom-link">Двигатели</a>
+                    <a href="#" class="bottom-link">Запчасти</a>
+                </nav>
+            </div>
+            <div class="header-navigation">
+                <a href="/index.html" class="navigation-link">Главная</a>
+                <a href="/gidro.html" class="navigation-link">Гидроциклы</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="wrapper">
+                <h1 class="hero-title">Гидроциклы</h1>
+                <div class="hero-serch">
+                    <div class="hero-btn-cont">
+                        <button class="hero-serch-btn">Полноприводные</button>
+                        <button class="hero-serch-btn">от 5000</button>
+                        <button class="hero-serch-btn">BRP</button>
+                        <button class="hero-serch-btn">еще</button>
+                    </div>
+                    <div class="hero-serch-form">
+                        <form action="#" method="post" class="serch-form">
+                            <select name="serch-list" class="hero-select">
+                                <option value="population">По популярности</option>
+                                <option value="price">По цене</option>
+                                <option value="V">По объёму двс</option>
+                            </select>
+                        </form>
+                        <img src="img/serch-1.svg" alt="serch" class="hero-serch-img">
+                        <img src="img/serch-2.svg" alt="serch" class="hero-serch-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="goods-list">
+            <div class="wrapper">
+                <div class="goods-parametrs">
+                    <div class="goods-header">
+                        <h2 class="goods-title"><a href="#" class="goods-title-link">Параметры</a></h2>
+                        <h2 class="goods-title"><a href="#" class="goods-title-link">по марке</a></h2>
+                    </div>
+                    <div class="goods-new goods-click">
+                        <h3 class="goods-title_litl goods-back">Новинки</h3>
+                        <div class="goods-hidden">
+                            <input type="checkbox" name="goods-new" class="goods-new-input"> <span class="goods-new-span">Новинки</span>
+                            <input type="checkbox" name="goods-new" class="goods-new-input"> <span class="goods-new-span">Акции</span>
+                        </div>
+                    </div>
+                    <div class="goods-price goods-click">
+                        <h3 class="goods-title_litl goods-back">Цена</h3>
+                        <div class="goods-hidden">
+                            <input type="range" class="goods-price-input" min="0" max="1000000" value="300000">
+                        <div class="range-price">
+                            <p class="price-first">От</p> <span class="price-first-ot">0</span>
+                            <p class="price-end">До</p> <span class="price-first-ot">0</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="goods-power">
+                        <h3 class="goods-title_litl power-title">Мощность, л.с.</h3>
+                        <select name="power-list" class="power-list">
+                            <option value="90">90</option>
+                            <option value="130">130</option>
+                            <option value="154">154</option>
+                            <option value="230">230</option>
+                            <option value="300">300</option>
+                        </select>
+                    </div>
+                    <div class="goods-power">
+                        <h3 class="goods-title_litl power-title">Мощность двигателя л.с.</h3>
+                        <select name="power-list" class="power-list">
+                            <option value="90">90</option>
+                            <option value="130">130</option>
+                            <option value="154">154</option>
+                            <option value="230">230</option>
+                            <option value="300">300</option>
+                        </select>
+                    </div>
+                    <div class="goods-power">
+                        <h3 class="goods-title_litl power-title">Моаксимальная скорость</h3>
+                        <select name="power-list" class="power-list">
+                            <option value="90">90</option>
+                            <option value="130">130</option>
+                            <option value="154">154</option>
+                            <option value="230">230</option>
+                            <option value="300">300</option>
+                        </select>
+                    </div>
+                    <div class="goods-new goods-click">
+                        <h3 class="goods-title_litl goods-back">Брэнд</h3>
+                        <div class="goods-hidden">
+                            <div class="goods-input">
+                                <div class="goods-input-top">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-brp">BRP</span>
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Spark 2</span>
+                                </div>
+                                <div class="goods-input-bottom">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Spark 3</span>
+                                </div>
+                            </div>
+                            <a href="#" class="goods-all">Показать ещё</a>
+                        </div>
+                    </div>
+                    <div class="goods-new goods-click">
+                        <h3 class="goods-title_litl goods-back">Модель</h3>
+                        <div class="goods-hidden">
+                            <div class="goods-input">
+                                <input type="text" class="goods-input" placeholder="Введите модель ">
+                                <div class="goods-input-top">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Sea-doo Spark 2</span>
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">SeaDoo Spark 90 </span>
+                                </div>
+                                <div class="goods-input-bottom">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">SeaDoo GTI 155</span>
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">SeaDoo GTR 230</span>
+                                </div>
+                            </div>
+                            <a href="#" class="goods-all">Показать ещё</a>
+                        </div>
+                    </div>
+                    <div class="goods-share goods-click">
+                        <h3 class="goods-title_litl goods-back">Акции</h3>
+                        <div class="goods-hidden">
+                            <div class="goods-hidden-btn">
+                                <button class="share-btn">SALE</button>
+                                <button class="share-btn">NEW</button>
+                                <button class="share-btn">HIT</button>
+                                <button class="share-btn">ДИЛЕР</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="goods-new goods-click">
+                        <h3 class="goods-title_litl goods-back">Страны</h3>
+                        <div class="goods-hidden">
+                            <div class="goods-input">
+                                <div class="goods-input-top">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Россия</span>
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Германия</span>
+                                </div>
+                                <div class="goods-input-bottom">
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">Китай</span>
+                                    <input type="checkbox" name="goods-brand" class="goods-new-input"> <span class="goods-new-span">CША</span>
+                                </div>
+                            </div>
+                            <a href="#" class="goods-all">Показать ещё</a>
+                        </div>
+                    </div>
+                    <button class="goods-button">ВЫБРАТЬ</button>
+                    <a href="#" class="goods-addition">Дополнительные параметры</a>
+                    <a href="#" class="goods-down">Сбросить фильтр</a>
+                </div>
+                <div class="goods-catalog">
+                    <ul class="goods-items">
+                        <div class="itemBuy"><span class="buy">Товар добавлен в корзину</span></div>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-1.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango</figcaption>
+                            </figure>
+                            <p class="popular-item-price">1 049 500 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <span class="popular-sale">sale</span>
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-2.png" alt="swim" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
+                                </figcaption>
+                            </figure>
+                            <p class="popular-item-price">1 100 475 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-3.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo GTR 230hp X California green </figcaption>
+                            </figure>
+                            <p class="popular-item-price">1 323 700 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-4.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream</figcaption>
+                            </figure>
+                            <p class="popular-item-price">9 800 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-5.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal</figcaption>
+                            </figure>
+                            <p class="popular-item-price">1 543 000 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-6.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo Spark 60hp 2 up</figcaption>
+                            </figure>
+                            <p class="popular-item-price">732 345 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-7.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo Spark GTS 90hp Rental</figcaption>
+                            </figure>
+                            <p class="popular-item-price">857 666 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-8.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue
+                                </figcaption>
+                            </figure>
+                            <p class="popular-item-price">1 229 711 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-9.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper</figcaption>
+                            </figure>
+                            <p class="popular-item-price">587 440 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-10.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл Spark 2-UP 900 Ho Ace Pineapple </figcaption>
+                            </figure>
+                            <p class="popular-item-price">587 440 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-11.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla </figcaption>
+                            </figure>
+                            <p class="popular-item-price">9 800 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#" class="popular-hidden-link">посмотреть товар</a>
+                            <button class="popular-like"><svg class="like-swg" width="24" height="22" view-box="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 8.22892C12.234 7.10892 13.547 1.99992 17.382 1.99992C19.602 1.99992 22 3.55092 22 7.00292C22 10.9099 18.373 15.4729 12 19.6319C5.627 15.4729 2 10.9099 2 7.00292C2 3.51892 4.369 1.99792 6.577 1.99792C10.5 1.99792 11.722 7.12392 12 8.22892ZM0 7.00292C0 11.0709 3.06 16.4839 12 21.9999C20.94 16.4839 24 11.0709 24 7.00292C24 -0.959077 14.352 -2.02508 12 3.26592C9.662 -1.99608 0 -1.00408 0 7.00292Z" fill="black"/>
+                                </svg></button>
+                            <figure class="popular-figur">
+                                <img src="img/card-gidro-12.png" alt="backpack" class="popular-item_img">
+                                <figcaption class="popular-img-name">Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry</figcaption>
+                            </figure>
+                            <p class="popular-item-price">9 800 ₽</p>
+                            <button data-goods="1" class="popular-item-busket"><img src="img/pop-busket.svg" alt="basket"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+  <script src="gidro.js"></script>  
+</body>
+</html>
